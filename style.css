@@ -1,0 +1,106 @@
+/*
+	Theme Name: ek-theme
+	Description: My custom theme based on genesis framework
+	Author: Eliza Kaniewska
+	Author URI: http://elizak.org
+*/
+/* import genesis stylesheet */
+@import url("../genesis/style.css");
+
+.site-inner, .wrap {
+	width: 1010px;
+}
+.site-description {
+	display: none;
+}
+.site-header, .nav-primary {
+	background-color: #1f9fba;
+}
+.site-header .wrap {
+	padding: 0;
+}
+.site-title a {
+	background: url("http://localhost/eliza/wp-content/themes/ek-theme/images/logo.jpg") no-repeat;
+	height: 249px;
+    margin-top: -9px;
+    position: absolute;
+    text-indent: -9999px;
+    width: 300px;
+    z-index: 999;
+}
+.site-header {
+	height: 45px;
+	min-height: 0;
+}
+.site-header .widget-area {
+	text-align: left;
+}
+.genesis-nav-menu {
+	height: 45px;
+	margin-left: 125px;
+}
+.nav-primary .genesis-nav-menu a {
+    color: #fff;
+    font-weight: 700;
+    margin-top: -10px;
+    padding: 30px 22px;
+    text-transform: uppercase;
+}
+.nav-primary .genesis-nav-menu a:hover, .nav-primary .genesis-nav-menu .current-menu-item > a,
+.genesis-nav-menu .sub-menu a {
+	text-decoration:none;
+}
+.col.middle-column {
+	float: left;
+}
+.content-sidebar .content {
+	margin-top: 30px;
+	width: 650px;
+}
+.genesis-nav-menu  {
+	margin-top: -20px;
+}
+.genesis-nav-menu li:nth-child(1), 
+.genesis-nav-menu li {
+	background-color: #9bba1f;
+	height: 60px;
+}
+.genesis-nav-menu li:hover,
+.nav-primary .genesis-nav-menu .current-menu-item  {
+	height: 70px;
+}
+.genesis-nav-menu li:nth-child(2), .genesis-nav-menu li:nth-child(5)  {
+	background-color: #ffa200;
+}
+.genesis-nav-menu li:nth-child(3) {
+	background-color: #ca3535;
+}
+.genesis-nav-menu li:nth-child(4) {
+	background-color: #15c1e5;
+}
+.home .content {
+	width: 0;
+}
+.homemainwidget {
+	background-color: #4682B4;
+	color: #fff;
+	float: left;
+	font-size: 18px;
+	margin-top: 30px;
+	padding: 20px;
+	width: 650px;
+}
+.homemainwidget  h1 {
+	color: #fff;
+	border-bottom: 2px dotted #fff;
+}
+.homemainwidget img {
+	box-shadow: 3px 2px 4px #000;
+}
+.sidebar-primary {
+	width: 330px;
+	margin-top: 30px;
+}
+.sidebar .widget {
+	background-color: #fff;
+}
