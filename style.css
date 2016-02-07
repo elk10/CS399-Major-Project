@@ -8,7 +8,14 @@
 @import url("../genesis/style.css");
 
 .site-inner, .wrap {
-	width: 1010px;
+	max-width: 1100px;
+	background-color: none;
+}
+.site-inner {
+	/* border-top: 63px solid #1f9fba*/
+	background-color: #fff;
+	margin-top: 60px;
+	padding-top: 0;
 }
 .site-description {
 	display: none;
@@ -22,6 +29,7 @@
 .site-title a {
 	background: url("http://localhost/eliza/wp-content/themes/ek-theme/images/logo.jpg") no-repeat;
 	height: 249px;
+    display: block;
     margin-top: -9px;
     position: absolute;
     text-indent: -9999px;
@@ -35,38 +43,45 @@
 .site-header .widget-area {
 	text-align: left;
 }
-.genesis-nav-menu {
-	height: 45px;
-	margin-left: 125px;
-}
-.nav-primary .genesis-nav-menu a {
-    color: #fff;
-    font-weight: 700;
-    margin-top: -10px;
-    padding: 30px 22px;
-    text-transform: uppercase;
-}
-.nav-primary .genesis-nav-menu a:hover, .nav-primary .genesis-nav-menu .current-menu-item > a,
-.genesis-nav-menu .sub-menu a {
-	text-decoration:none;
-}
 .col.middle-column {
 	float: left;
 }
 .content-sidebar .content {
+	background-color: #fff;
 	margin-top: 30px;
-	width: 650px;
+	padding-left: 40px;
 }
-.genesis-nav-menu  {
-	margin-top: -20px;
+/**********
+   MENU
+***********/
+.genesis-nav-menu {
+	height: 25px;
+	margin-left: 30px;
+}
+.nav-primary .genesis-nav-menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -10px;
+    padding: 30px 18.4px;
+    text-transform: uppercase;
+}
+.nav-primary .genesis-nav-menu a:hover, 
+.nav-primary .genesis-nav-menu .current-menu-item > a,
+.nav-primary .genesis-nav-menu .sub-menu a:hover,
+.nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a {
+	text-decoration:none;
+}
+.genesis-nav-menu .menu-item {
+	margin-right: -4px;
 }
 .genesis-nav-menu li:nth-child(1), 
 .genesis-nav-menu li {
 	background-color: #9bba1f;
 	height: 60px;
 }
-.genesis-nav-menu li:hover,
-.nav-primary .genesis-nav-menu .current-menu-item  {
+.genesis-nav-menu  li:hover,
+.genesis-nav-menu .current-menu-item  {
 	height: 70px;
 }
 .genesis-nav-menu li:nth-child(2), .genesis-nav-menu li:nth-child(5)  {
@@ -78,29 +93,37 @@
 .genesis-nav-menu li:nth-child(4) {
 	background-color: #15c1e5;
 }
-.home .content {
-	width: 0;
+.genesis-nav-menu .sub-menu {
+    margin-top: 3px;
+}
+.genesis-nav-menu .sub-menu li  {
+	height: 60px;
 }
 .homemainwidget {
-	background-color: #4682B4;
-	color: #fff;
+	color: #000;
 	float: left;
 	font-size: 18px;
 	margin-top: 30px;
-	padding: 20px;
-	width: 650px;
 }
 .homemainwidget  h1 {
-	color: #fff;
-	border-bottom: 2px dotted #fff;
+	color: #000;
 }
-.homemainwidget img {
-	box-shadow: 3px 2px 4px #000;
+.entry {
+	clear: left;
+	padding: 0;
 }
 .sidebar-primary {
-	width: 330px;
+	width: 270px;
 	margin-top: 30px;
 }
 .sidebar .widget {
-	background-color: #fff;
+	padding: 20px;
+}
+.sidebar-primary h4 {
+	background-color: orange;
+    color: #fff; 
+    font-size: 21px;
+    font-weight: 700;
+    height: 50px;
+    padding: 13px;
 }

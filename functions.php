@@ -12,7 +12,7 @@ add_filter( 'edit_post_link', '__return_false' );
 // unregister not used genesis layouts
 genesis_unregister_layout( 'content-sidebar-sidebar' );
 genesis_unregister_layout( 'sidebar-sidebar-content' );
-genesis_unregister_layout( 'sidebar-content' );
+//genesis_unregister_layout( 'sidebar-content' );
 genesis_unregister_layout( 'sidebar-content-sidebar' );
 
 // Add viewport meta tag for mobile browsers 
