@@ -16,7 +16,5 @@
 
 <?php
 
- echo $_POST["name"]; 
-echo $_POST["email"]; 
-//* This file handles single entries, but only exists for the sake of child theme forward compatibility.
+
 genesis();

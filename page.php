@@ -11,9 +11,16 @@
  * @link    http://my.studiopress.com/themes/genesis/
  */
 
-add_action ('genesis_before_content','custom_image');
 
-function custom_image() {
-	echo '<img class="top-bar" src="http://localhost/eliza/wp-content/themes/ek-theme/images/cominscoch.png">';
-}
+/*
+$args = array( 'post_type' => 'event', 'posts_per_page' => 10 );
+$loop = new WP_Query( $args );
+while ( $loop->have_posts() ) : $loop->the_post();
+  the_title();
+  echo '<div class="entry-content">';
+  the_content();
+  echo '</div>';
+endwhile;
+*/
+
 genesis();

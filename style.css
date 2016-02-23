@@ -1,10 +1,11 @@
 /*
-	Theme Name: ek-theme
-	Description: My custom theme based on genesis framework
+	Theme Name: genesis-child-theme
+	Template:   genesis
+	Theme URI: 
+	Description: Custom theme on genesis framework
 	Author: Eliza Kaniewska
 	Author URI: http://elizak.org
-*/
-/* import genesis stylesheet */
+
 @import url("../genesis/style.css");
 
 .site-inner, .wrap {
@@ -27,7 +28,7 @@
 	padding: 0;
 }
 .site-title a {
-	background: url("http://localhost/eliza/wp-content/themes/ek-theme/images/logo.jpg") no-repeat;
+	background: url("http://localhost/eliza/wp-content/themes/genesis-child-theme/images/logo.jpg") no-repeat;
 	height: 249px;
     display: block;
     margin-top: -9px;
@@ -112,6 +113,11 @@
 	clear: left;
 	padding: 0;
 }
+.latest-news {
+	float: left;
+	clear: left;
+}
+
 .sidebar-primary {
 	width: 270px;
 	margin-top: 30px;
